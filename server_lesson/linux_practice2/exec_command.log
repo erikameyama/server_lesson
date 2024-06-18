@@ -1,0 +1,174 @@
+    1  ls /
+    2  cd /home
+    3  mkdir test1
+    4  ls
+    5  mkdir test2/test3
+    6  mkdir -p test2/test3
+    7  ls test2
+    8  touch test1/index.php
+    9  ls test1
+   10  cd /home/test1 && ls
+   11  cp index.php copy.php
+   12  ls
+   13  cp -r test1 test4
+   14  cd /home
+   15  cp -r test1 test4
+   16  ls
+   17  mv test2/test3 test3
+   18  echo $LANG
+   19  locale
+   20  [System.Text.Encoding]::Default.EncodingName
+   21  mv test2/test3 test3
+   22  ls
+   23  mv test4 test1_copy
+   24  rm test1/copy.php
+   25  rm -r test3
+   26  rm test1_copy/*.php
+   27  echo '# Hello World' > README.md
+   28  echo '# Server Lesson' > README.md
+   29  vi READMW.cd
+   30  export LANG=en_US.UTF-8
+   31  locale
+   32  vi READMW.cd
+   33  vi ~/.vimrc
+   34  vi READMW.cd
+   35  vi READMW.cd
+   36  cd /root
+   37  mkdir server_lesson && cd server_lesson
+   38  yum update -y && -y install git
+   39  git version
+   40  yum update -y && -y install git
+   41  git version
+   42  git init
+   43  git initgit --version
+   44  echo $PATH
+   45  export PATH="/usr/local/bin/git:$PATH"
+   46  echo $PATH
+   47  . ~/.bashrc
+   48  echo $PATH
+   49  git version
+   50  . ~/.bashrc
+   51  git --version
+   52  FROM ubuntu:latest
+   53  # Dockerfile
+   54  Dockerfile
+   55  RUN apt-get update && apt-get install -y git
+   56  Dockerfile
+   57  sudo apt install git
+   58  yum update -y && -y install git
+   59  git init
+   60  yum update -y
+   61  yum install git
+   62  git version
+   63  exit
+   64  cd /root/linux_practice2/documents
+   65  cd /root/linux_practice2/
+   66  cd /root/linux_practice2
+   67  cd /root
+   68  cd server_lesson/linux_practice2/documents
+   69  ls
+   70  touch gizumo{01}.md
+   71  ls
+   72  touch gizumo{01..50}.md
+   73  ls
+   74  rm gizumo{01}.md
+   75  cd ..
+   76  mkdir trash && cd trash
+   77  mv gizumo{20..40}.md trash
+   78  cd ..
+   79  mv gizumo{20..40}.md trash
+   80  ls
+   81  mv gizumo{20..40}.md /trash
+   82  mv gizumo{20..40}.md trash/.
+   83  mv gizumo{20..40}.md trash /.
+   84  mv gizumo20.md trash
+   85  cd documents
+   86  mv gizumo{20..40}.md trash
+   87  mv gizumo{20..40}.md linux_practice2/trash
+   88  mv gizumo{20..40}.md linux_practice2/trash/.
+   89  mv gizumo{20..40}.md linux_practice2
+   90  mv gizumo{20..40}.md /root/serever_lesson/linux_practice2
+   91  mv gizumo{20..40}.md /root
+   92  cd /root
+   93  ls
+   94  mv gizumo{20..40}.md serever_lesson/linux_practice2
+   95  mv gizumo{20..40}.md serever_lesson
+   96  mv gizumo{20..40}.md serever_lesson /.
+   97  mv gizumo{20..40}.md serever_lesson/.
+   98  mv gizumo{20..40}.md serever_lesson
+   99  mv gizumo{20..40}.md /serever_lesson
+  100  mv gizumo{20..40}.md serever_lesson
+  101  mv gizumo{20..40}.md serever_lesson/.
+  102  mv gizumo{20..40}.md serever_lesson/.
+  103  mv gizumo{20..40}.md serever_lesson\.
+  104  mv gizumo{20..40}.md serever_lesson.
+  105  mv gizumo{20..40}.md serever_lesson
+  106  cd server_lessom
+  107  cd server_lesson
+  108  cd ..
+  109  mv gizumo22.md server_lesson
+  110  ls
+  111  cd -
+  112  ls
+  113  cd /root
+  114  ls
+  115  cd /linux_practice2
+  116  cd linux_practice2
+  117  cd server_lesson
+  118  ls
+  119  cd linux_practice2
+  120  ls
+  121  ls documents
+  122  cd ../../
+  123  ls
+  124  cd /home
+  125  ls
+  126  cd /root 
+  127  ls
+  128  ls server_lesson
+  129  git log
+  130  linux_practice1
+  131  ls linux_practice1
+  132  cd linux_practice1/linux_practice1
+  133  cd server_lesson/linux_practice1
+  134  ls
+  135  ls public
+  136  ls temp
+  137  cd -
+  138  cd server_lesson/linux_practice2
+  139  ls
+  140  mkdir trash
+  141  ls
+  142  mv documents
+  143  cd documents
+  144  ls
+  145  touch gizumo{20..40}.md
+  146  ls
+  147  mv gizumo{20..40}.md cd /trash
+  148  mv gizumo{20..40}.md cd /root/server_lesson/linux_practice2/trash
+  149  ls
+  150  touch gizumo{20..40}.md
+  151  ls
+  152  mv gizumo{20..40}.md /root/server_lesson/linux_practice2/trash
+  153  cd /root/server_lesson/linux_practice2/trash
+  154  ls
+  155  ls
+  156  pwd
+  157  cd ..
+  158  pw
+  159  pwd
+  160  touch .gitignore
+  161  ls
+  162  vi gitignore
+  163  vi gitignore
+  164  ls
+  165  rm .gitignore .gitignore,
+  166  ls
+  167  mv gitignore .gitignore.
+  168  ls
+  169  vi .gitignoree.
+  170  ls
+  171  rm .gitignoree.
+  172  vi .gitignore.
+  173  ls
+  174  history 300 > exec_command.log
